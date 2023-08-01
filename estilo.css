@@ -1,0 +1,101 @@
+html{
+    font-size: 62.5%;
+}
+
+body, header {
+    min-height: 100%;
+    margin: auto;
+    font-family: 'Roboto Flex';
+    width: 100vw;
+
+}
+
+p {
+    font: 24rem white 400 'Roboto Flex';
+}
+
+.wrapperContainer{
+
+}
+
+.wrapperContainer-yellow{
+    background-color: #C39531;
+    padding: 1rem;
+}
+
+.container{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header img{
+    padding: 5px 1px 1px 0;
+}
+
+.header_nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.header_nav ul{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 5rem;
+}
+
+.header_nav li{
+    background-color: #043965;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 13rem;
+}
+
+.wrapperContainer-hero{
+    background-color: #043965;
+    margin: 0;
+    padding: 0;
+}
+
+.heroBanner{
+    display: flex;
+    justify-content: center;
+}
+
+.heroBanner a{
+
+    background-color: #043965;
+    text-decoration: none;
+    color:white;
+}
+
+.heroBanner img{
+    width: 100vw;
+}
+
+.wrapperContainer-green{
+    background-color: #407F46;
+    margin-top: 0;
+
+}
+
+.odsContainer{
+    display: flex;
+}
+
+.ods h2{
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.ods p{
+    font-size: 1.4rem;
+    width: 250px;
+    text-align: left;
+    margin: auto;
+    padding: 5rem;
+}
