@@ -4,7 +4,7 @@ html{
 
 body, header {
     min-height: 100%;
-    margin: auto;
+    margin: 0;
     font-family: 'Roboto Flex';
     width: 100vw;
 
@@ -15,12 +15,24 @@ p {
 }
 
 .wrapperContainer{
-
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .wrapperContainer-yellow{
     background-color: #C39531;
     padding: 1rem;
+}
+
+.wrapperContainer-blue{
+    background-color: #043965;
+}
+
+
+.wrapperContainer-green{
+    background-color: #407F46;
 }
 
 .container{
@@ -61,11 +73,11 @@ p {
 
 .heroBanner{
     display: flex;
-    justify-content: center;
 }
 
-.heroBanner a{
-
+.containerImagem_cta{
+    font-size: 2rem;
+    padding: 0;
     background-color: #043965;
     text-decoration: none;
     color:white;
@@ -75,27 +87,52 @@ p {
     width: 100vw;
 }
 
-.wrapperContainer-green{
-    background-color: #407F46;
-    margin-top: 0;
-
-}
-
-.odsContainer{
-    display: flex;
-}
 
 .ods h2{
-    margin: auto;
+    font-size: 2.4rem;
     color: white;
     text-align: center;
-    font-size: 2.4rem;
+    padding-top: 5rem; 
+    margin: 0;
 }
 
-.ods p{
-    font-size: 1.4rem;
-    width: 250px;
+
+.odsContainer{
+    height: 40rem;
+    margin-top: 0;
+}
+
+.ods_texto{
+    font-size: 1.7rem;
+    color: white;
+    width: 42rem;
     text-align: left;
     margin: auto;
+}
+
+.ods_imagem{
+    margin: auto;
+}
+
+.content-objetivo{
+    height: 40rem;
+
+}
+
+.content-objetivo h2{
+    width: 250rem;
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+    padding-top: 5rem; 
+    margin:auto;
+}
+
+.content-objetivo p{
+    font-size: 1.7rem;
+    color: white;
+    text-align: center;
+    width: 250rem;
     padding: 5rem;
 }
+
